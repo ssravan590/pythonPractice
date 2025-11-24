@@ -1,0 +1,14 @@
+Numpy --> Numerical python Library
+what is the need?
+ by using python, we can perform mathematical operations
+like
+a+b
+a-b
+a*b
+
+but to perform complex mathematical operations we  go for Numpy
+--
+1. Numpy define several function to perform complex mathematical operations
+2. to fulfill performance gaps..and is implemented in c lang
+3. nd array
+     - n dimensional array or numpy array
