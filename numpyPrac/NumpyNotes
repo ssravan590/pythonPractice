@@ -12,3 +12,54 @@ but to perform complex mathematical operations we  go for Numpy
 2. to fulfill performance gaps..and is implemented in c lang
 3. nd array
      - n dimensional array or numpy array
+--------------------------------------------------
+Numpy Basic Introduction:
+Array creations : 10+WAYS
+ATTRIBUTES
+How to access elements of array
+  Basic Indexing
+  Slice operation
+  Advanced Indexing
+  Condition Based Selection
+How to iterate element of array:
+  python normal loops
+  nditer()
+  ndenumerate()
+Arithemtic operators
+Broadcasting
+Array manipaltion functions
+ reshape()
+ resize()
+ flatten()
+ ravel()
+ transpose()
+matric class
+
+how many ways we can create arrays
+-2 ways
+1. arrays
+2. numpy
+
+numpy has more predefined function so using np is good option
+-----------------------------------------------------
+How to create Numpy Arrays:
+-----------------------------------------------------
+1. array()
+2. arange()
+3. linspace()
+4. zeros()
+5. ones()
+6. full()
+7. eye()
+8. identity()
+9 empty()
+10 numpy.random library
+    1. randint()
+    2. rand()
+    3. uniform()
+    4. randn()
+    5. normal()
+    6. shuffle()
+etc
+
+
