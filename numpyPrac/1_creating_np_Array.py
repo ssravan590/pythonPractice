@@ -8,6 +8,7 @@ print(type(l))
 a = np.array(l)
 print(a)   #1D array [1 2 3]
 print(type(a))
+print(a)
 print("--------------------")
 print("dim :",a.ndim) # to find dimention of ndarray 1d array
 print("type :",a.dtype) # int64 type
