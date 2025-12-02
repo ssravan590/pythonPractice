@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97a35db2-b0a0-439f-9e32-4271809915b2" name="Changes" comment="Basics">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="35k8FPkJl2XUrJ1WHGTgv4OHRqz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.10_variable_scopes_local_global.executor": "Run",
+    "Python.12_anonymous_lamda_function.executor": "Run",
+    "Python.13_filter_map_reduce_functions.executor": "Run",
+    "Python.14_modules.executor": "Run",
+    "Python.15_otherPossibleties_of_module.executor": "Run",
+    "Python.16_dir_help_function.executor": "Run",
+    "Python.17_dir.executor": "Run",
+    "Python.18_indirectExecting_a_module.executor": "Run",
+    "Python.19_random_module.executor": "Run",
+    "Python.19_rondom_module.executor": "Run",
+    "Python.20_math_module.executor": "Run",
+    "Python.21_packages.executor": "Run",
+    "Python.23_class_opps.executor": "Run",
+    "Python.23_class_opps_1.executor": "Run",
+    "Python.24_accessing_static_variable.executor": "Run",
+    "Python.24_static_variable.executor": "Run",
+    "Python.25_passing_members_of_one_class_in_another.executor": "Run",
+    "Python.26_inner_class_accessing.executor": "Run",
+    "Python.26_inner_or_nested_class.executor": "Run",
+    "Python.26_method_inside_method.executor": "Run",
+    "Python.27_Has_a_Relation.executor": "Run",
+    "Python.27_Is_a_Relation.executor": "Run",
+    "Python.27_Is_a_Relation_demo1.executor": "Run",
+    "Python.27_Is_a_contructor_in_parent_and_child.executor": "Run",
+    "Python.27_MRO_Method_resoultion_order_for_Hybrid.executor": "Run",
+    "Python.27_disable_enable_garbageCollector.executor": "Run",
+    "Python.27_distructor.executor": "Run",
+    "Python.27_multiple_inheritance.executor": "Run",
+    "Python.28_super_keywork_example.executor": "Run",
+    "Python.29_constructor_overloading.executor": "Run",
+    "Python.29_operator_overloading.executor": "Run",
+    "Python.30_abstact_methods.executor": "Run",
+    "Python.31_private_members.executor": "Run",
+    "Python.31_protected_members.executor": "Run",
+    "Python.32_decorator_fun_calling_with_func.executor": "Run",
+    "Python.32_decorators.executor": "Run",
+    "Python.33_decorators.executor": "Run",
+    "Python.33_extending_functality_with_decorators.executor": "Run",
+    "Python.34_exception_handling.executor": "Run",
+    "Python.34_generator.executor": "Run",
+    "Python.34_multiple_decorators.executor": "Run",
+    "Python.36_exception_finally_handling.executor": "Run",
+    "Python.36_userdefined_exception.executor": "Run",
+    "Python.3_stringExample.executor": "Run",
+    "Python.4_sliceExample.executor": "Run",
+    "Python.7_list_set_tuple_dictionary.executor": "Run",
+    "Python.9_functions.executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.demo1.executor": "Run",
+    "Python.list_set_tuple_dictionary.executor": "Run",
+    "Python.merging_list_set_dict.executor": "Run",
+    "Python.noneType.executor": "Run",
+    "Python.randomExampls.executor": "Run",
+    "Python.recursiveFunction.executor": "Run",
+    "Python.sliceExample.executor": "Run",
+    "Python.stringExample.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.typecasting.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/kotajashvanth/PycharmProjects/PythonProject"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programs/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programs/example/demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-f69e5c277ee4-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97a35db2-b0a0-439f-9e32-4271809915b2" name="Changes" comment="" />
+      <created>1763642604295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763642604295</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Basics">
+      <option name="closed" value="true" />
+      <created>1764317516609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764317516609</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Basics">
+      <option name="closed" value="true" />
+      <created>1764317529503</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764317529503</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basics" />
+  </component>
+</project>

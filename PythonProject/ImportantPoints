@@ -1,0 +1,94 @@
+# pip is a python package management system to install and manage s/w packages
+#pip install
+#pip unintall
+
+#pip install django
+#pip install pymysql
+
+
+Types If Inheritance:
+1. Single
+2. Multi level
+3. Hierarchical
+4. Multiple
+5. Hybrid
+6. cyclic
+
+1. Single :
+     class P
+         def m1(self)
+           pass
+     class C(p)
+          def m2()
+            pass
+    here class c is sinsgle
+
+2. Multi level:
+     class P1
+     class P2(p1)
+     class P3(p2)
+
+3.Hierarchical : single parent but multiple childs
+      class P1
+      class p2(p1)   and class P3(p1)
+
+4.Multiple : supported
+      class p1   and class P2
+      class c(p1,p2) -------------> getting props from both class
+          --> order of (p1,p2 ) is important if in case if a method clash the what order in order is 1st that method will be executed
+5. Hybrid : combination of multiple and multilevel is called Hybrid
+      class p1 and class p2
+         class p3(p1,p2)
+         class p4(p3)
+      class p5(p4) class p6(p4)
+
+      --> which  method to all in Hybrid depends of MRO Algoritham
+      --> MRO also is also called as C3 Algo
+
+6. Cyclic : Not supported
+       class P1(P2)
+       class P2(P1)
+
+
+###Aliesing
+def f1(function):
+    print("f1 function got function argule",format(function))
+    function()
+
+def fx():
+    print("fx function")
+
+def fy():
+    print("fy function")
+
+-> IN python everything is treated as object even function also.
+-> Every function is treated as Object
+-> for Existing function we can give another name (function aliasing)
+-> inside function , we can define another function(nexted function)
+-> A function can return another function
+-> we can pass a function as argument to another function.
+
+
+_---------------------------
+
+Python Generator
+ -> it is a function
+ -> It will generate a sequence of values
+ -> generator will use yield keyword to generate values
+
+range(),list and tuple are not generator
+listA=[x for x in range(100)]
+print(listA)
+print(type(listA)) -- class list
+
+genertorA=(x for x in range(100))
+print(genertorA)
+print(type(genertorA))
+
+Traditional collections vs generator:
+ -> with generators we will never face memory issue because it creates on demand
+ -> In tradition collection all the obects are created in the begining itself
+
+ Generator can created using yield value
+
+

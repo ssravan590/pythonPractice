@@ -62,4 +62,16 @@ How to create Numpy Arrays:
     6. shuffle()
 etc
 
+Array Attributes :
+ 1. a.ndim : return dimenstions
+ 2. a.shape : returns shape of the array
+ 3. size : total number of elemens
+ 4 dtype : data tyoe of array elements
+ 5. itemssize: size of the items
+-----------------------------------------------------------
+how to get/access elemensts of Numpy Array:
+ 1. Indexing  : only one element
+ 2. slicing : group of elemens
+ 3. Advanced Slicing
 
+1. Indexing :
