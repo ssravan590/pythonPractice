@@ -96,8 +96,27 @@ array = array = np.arange([10,101,10])
 idex = [2,5,9]
 print(array[idex]) # this returns values of array at index 2,5,9
 
+2D array:
+ar2d = np.array([[1,2,3,4],[4,5,6,7],[7,8,9,10],[10,11,12,13]])
+synax:
+  a[[row_indices],[column_indices]]
 
+example:
+a[[0,1,2,3],[0,1,2,3]] ---o/p : digornal
+----------full array------------
+[[ 1  2  3  4]
+ [ 4  5  6  7]
+ [ 7  8  9 10]
+ [10 11 12 13]]
+--------------------------------
+[ 1  5  9 13]
 
+print(ar2d[[0,1,2,3,3,3,3],[0,0,0,0,1,2,3]]) # L shape
+[ 1  4  7 10 11 12 13]
+
+3D array:
+syntax:
+ a[[indices of 2d array],[row indices],[column indices]]
 
 
 
