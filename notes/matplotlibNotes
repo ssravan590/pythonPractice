@@ -1,0 +1,21 @@
+Data Visualization is representation of data in visual format
+
+Multiple pytho based data visualization librabies:
+1. Matplotlib
+2. Seaborn
+3. Plotly
+
+1 Matplotlib
+ --> most popular and alternative  to matLab
+ --> open source where as matlab is not
+
+Installing Matplotlib:
+---------------------
+
+there are 2 ways:
+ 1. Pip install
+ 2. with Anokonda it is already installed
+
+ types of plots :
+
+ There are multiple types are avaibale to represent our daya on graphical form

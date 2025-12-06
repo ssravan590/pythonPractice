@@ -1,0 +1,278 @@
+Numpy --> Numerical python Library
+what is the need?
+ by using python, we can perform mathematical operations
+like
+a+b
+a-b
+a*b
+
+but to perform complex mathematical operations we  go for Numpy
+--
+1. Numpy define several function to perform complex mathematical operations
+2. to fulfill performance gaps..and is implemented in c lang
+3. nd array
+     - n dimensional array or numpy array
+--------------------------------------------------
+Numpy Basic Introduction:
+Array creations : 10+WAYS
+ATTRIBUTES
+How to access elements of array
+  Basic Indexing
+  Slice operation
+  Advanced Indexing
+  Condition Based Selection
+How to iterate element of array:
+  python normal loops
+  nditer()
+  ndenumerate()
+Arithemtic operators
+Broadcasting
+Array manipaltion functions
+ reshape()
+ resize()
+ flatten()
+ ravel()
+ transpose()
+matric class
+
+how many ways we can create arrays
+-2 ways
+1. arrays
+2. numpy
+
+numpy has more predefined function so using np is good option
+-----------------------------------------------------
+How to create Numpy Arrays:
+-----------------------------------------------------
+1. array()
+2. arange()
+3. linspace()
+4. zeros()
+5. ones()
+6. full()
+7. eye()
+8. identity()
+9 empty()
+10 numpy.random library
+    1. randint()
+    2. rand()
+    3. uniform()
+    4. randn()
+    5. normal()
+    6. shuffle()
+etc
+
+Array Attributes :
+ 1. a.ndim : return dimenstions
+ 2. a.shape : returns shape of the array
+ 3. size : total number of elemens
+ 4 dtype : data tyoe of array elements
+ 5. itemssize: size of the items
+-----------------------------------------------------------
+how to get/access elemensts of Numpy Array:
+ 1. Indexing  : only one element
+ 2. slicing : group of elemens
+ 3. Advanced Slicing
+
+1. Indexing :
+    By using index,we can get/access single element of the array.
+    Zero based Indexing. i.e the index of the 1st element is 0
+    supoorts both +ve and -ve indexing
+
+2 Slicing :
+    syntax:
+  1D a[begin:end] : it returns elements from begin index to end-1 index
+  2D a[begin:end:step, begin:end:step]
+  3D a[begin:end:step, begin:end:step begin:end:Step]
+   a[0:1,:]
+
+3 Advanced indexing: To access arbitrary elements we should go for advanced Indexing
+Accession Multiple arbitrary elements:
+1-D array:
+  array[x] : x can be either ndarray or list,which represents required indexs
+
+Example:
+array = array = np.arange([10,101,10])
+idex = [2,5,9]
+print(array[idex]) # this returns values of array at index 2,5,9
+
+2D array:
+ar2d = np.array([[1,2,3,4],[4,5,6,7],[7,8,9,10],[10,11,12,13]])
+synax:
+  a[[row_indices],[column_indices]]
+
+example:
+a[[0,1,2,3],[0,1,2,3]] ---o/p : digornal
+----------full array------------
+[[ 1  2  3  4]
+ [ 4  5  6  7]
+ [ 7  8  9 10]
+ [10 11 12 13]]
+--------------------------------
+[ 1  5  9 13]
+
+print(ar2d[[0,1,2,3,3,3,3],[0,0,0,0,1,2,3]]) # L shape
+[ 1  4  7 10 11 12 13]
+
+3D array:
+syntax:
+ a[[indices of 2d array],[row indices],[column indices]]
+
+condition based selections:
+we can select elements based on some conditional also.
+ Syntax:
+   array[boolean_Array]
+
+
+
+b = np.arange(1,26).reshape(5,5)
+print(b)
+----
+[[ 1  2  3  4  5]
+ [ 6  7  8  9 10]
+ [11 12 13 14 15]
+ [16 17 18 19 20]
+ [21 22 23 24 25]]
+----
+print(b[b%2==0])
+[ 2  4  6  8 10 12 14 16 18 20 22 24]
+----------------------------------
+ex2:
+a = np.array([-12,-2,4,5,-6,12,234,-54,6,65767,3,43,5467,-7,-8,])
+
+#select all negivitive elements
+neg = a[a<0]
+print(neg)
+[-12  -2  -6 -54  -7  -8]
+----------------------------------------------------------------
+Note :
+Numpy Array Slicing:
+ A separate copy wont be created and just we are getting view of the original copy.
+just like table and view:
+ view is logical entity where as table is physical entity
+
+ Example:
+l1d = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,25]
+a1d= np.array(l1d)
+print(a1d)
+cview = a1d[1:5]
+print(cview)
+cview[0]= 111
+print(cview) #even updated in copy it will update in orginal as well
+print(a1d)
+-----------------------------------------------------------------
+3 ways to iterate elements of the ndarray
+
+1. By using pythod's loops concept
+2. By using nditer() function
+3. By using ndenumerate() function : if we want to find coorinate also inaddition to elemets the we go ndenumerate()
+
+1. By using pythons loops concept :
+  a = np.arange(10,2020)
+  for x in a:
+     print(x)
+
+2. using nditer():
+    for x in np.nditer():
+      print(x)
+3. np.ndenumerate
+a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(a)
+print("-------------------------------")
+for pos,ele in np.ndenumerate(a):
+    print(f"position of {pos} and element {ele}")
+print("-------------------------------")
+------------------------------------------------------------------------------------
+Arithmetic operators:
+-------------------
++,-,*,/,//,%,**
+
+Example:
+10%2 --> 0
+10**2 --> 100 (10 sequare)
+10/2 --> 5.0 (Normal division)
+10//2 --> 5 (floor division)
+
+
+Arthmetic operation with arrays:
+a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+b = a + 2
+print(b)
+print(a-2)
+print(a//2)
+
+----------------
+
+1. Arrays with Scalar
+2. Arrays with Arrays
+
+1.
+   a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+   b = a + 2
+   np.add(a,b)  :
+   np.floor(a,b)
+
+2. Arrays with Arrays :
+
+   Broadcasting: Even though dimensions are different,shapes are different and sizes are different still some arithmetic operations are allowed this
+   is because fo broad casting
+
+   Broadcasting will be performed automatically by numpy itself.
+
+   Rules for Broadcasting:
+   ----------------------
+   Rule1 : makes sure both arrays should have same dimensions.
+   Add 1's in the shape of fewer dimenstional array on the left side,until both arrays have same dimenstion
+
+Example:
+   Before :
+   (4,3) ---> 2D
+   (3,) ----->1D
+   after :
+   (4,3) --> 2d
+   (1,3) --> 2d
+Example
+   Before :
+    (4,3,3) --> 3d
+    (3,)    --> 1d
+    after :
+     (4,3,3) --> 3d
+     (1,1,3) --> 3d
+
+ now both has same dimentsion so now we can proceed with Rule 2.
+
+Rules-2:
+ if size of 2 arrays does not match in any dimension , the array with size equal to 1 in that dimenstion is expanded/increases
+ to match other size of the same dimenstion. if not we will get the error
+
+ example:
+  Before:
+    (4,3) --> 2d
+    (1,3) --> 2d
+  after :
+    (4,3) --> 2d
+    (4,3) --> 2d
+
+example 2:
+Before :
+ (3,2,2) --> 3d
+ (1,1,3) --> 3d
+after :
+ (3,2,2) --> 3d
+ (3,2,3) --> 3d
+
+ ------------------------------------chapter 8---------------
+ Array Manipulation functionsL
+
+   1. reshape()
+   2. resize()
+   3. flatten()
+   4.f
+
+
+
+
+
+
+
+
